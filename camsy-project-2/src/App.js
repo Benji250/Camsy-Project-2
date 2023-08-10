@@ -3,22 +3,21 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <main>
+      <header>
+        <a href="./" className="logo">CAMSY</a>
+        <nav>
+          <a href="./shop.html">Shop</a>
+          <a href="./register.html">Register</a>
+          <a href="./checkout.html">Check out</a>
+        </nav>
       </header>
-    </div>
+      <div className='entry'>
+       <img src={require('./CAMSY-LOGO.jpg')} alt="logo"/>
+        <h3>You're tusted source for high end and affordable cameras</h3>
+        <p>Weather you are looking for a high end camera or a certified used camra, we have what you are looking for.</p>
+      </div>
+    </main>
   );
 }
 
