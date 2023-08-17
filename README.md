@@ -1,11 +1,4 @@
-<<<<<<< HEAD
 
-# Citation
-
-All images for our invitory can be found on bestbuy (https://www.bestbuy.com/)
-
-//below will be the citiation for any images we use on our home page
-=======
 # Camsy-Project-2
 
 What camera are we selling? - Cannon R5 (mock)
@@ -37,3 +30,9 @@ Red Stars
 Git Hub Link https://github.com/Benji250/Camsy-Project-2
 https://docs.google.com/document/d/1UluZWe_h4qNzueTat8Y07CFQltlnELTMV3nCkJJ2CFo/edit
 >>>>>>> main
+=======
+# Citation
+
+All images for our invitory can be found on bestbuy (https://www.bestbuy.com/)
+
+//below will be the citiation for any images we use on our home page
