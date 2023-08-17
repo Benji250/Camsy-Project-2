@@ -11,7 +11,7 @@ export default function Home () {
       
       <nav>
       <Link to="/shop">Shop</Link>
-      <Link to="/checkout">Check out</Link>
+      <Link to="/cart">Cart</Link>
       </nav>
     </header>
     <div className='entry'>
