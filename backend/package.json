@@ -1,12 +1,32 @@
 {
-  "name": "backend",
+  "name": "camsy-project-2",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "data:import": "node backend/seederScript",
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Benji250/Camsy-Project-2.git"
+  },
+  "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Benji250/Camsy-Project-2/issues"
+  },
+  "homepage": "https://github.com/Benji250/Camsy-Project-2#readme",
+  "dependencies": {
+    "concurrently": "^8.2.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongodb": "^5.7.0",
+    "mongoose": "^7.4.3",
+    "nodemon": "^3.0.1",
+    "save-dev": "^0.0.1-security"
+  }
 }

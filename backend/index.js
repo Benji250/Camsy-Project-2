@@ -1,1 +1,1 @@
-console.log("Start tje app")
+console.log("Start the app")
