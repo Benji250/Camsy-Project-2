@@ -1,4 +1,5 @@
 require("dotenv").config();
+const PORT = process.env.PORT ||5001;
 const express = require("express");
 const connectDB = require("./config/db");
 const ProductRoutes = require("./routes/ProductRoutes");
@@ -12,9 +13,6 @@ connectDB();
 
  app.use("/api/products", ProductRoutes);
  
-
- const PORT = process.env.PORT ||5000;
-
 
  app.listen(PORT, () => console.log(`server running ${PORT}`))
  
